@@ -1,0 +1,9 @@
+#!/bin/bash
+
+ARGUMENTS_ALL=""
+for ARG_NOW in "$@"
+do
+	ARGUMENTS_ALL="$ARGUMENTS_ALL $ARG_NOW";
+done
+
+DYLD_INSERT_LIBRARIES=/usr/lib/libDropblearAlert.dylib exec $(cat /usr/local/bin/dropbearAlertProgram)$ARGUMENTS_ALL;

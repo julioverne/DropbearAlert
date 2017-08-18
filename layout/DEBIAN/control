@@ -1,0 +1,11 @@
+Package: com.julioverne.dropbearalert
+Name: DropbearAlert
+Author: julioverne
+Version: 0.0~beta2
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Dropbear System Login Alert for iOS 10
+Homepage: http://twitter.com/ijulioverne
+Maintainer: Julio
+Section: Tweaks
+Depiction: http://julioverne.github.io/description.html?id=com.julioverne.dropbearalert
